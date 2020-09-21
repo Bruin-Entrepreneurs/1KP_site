@@ -203,7 +203,7 @@ header {
 
 .winnerSection { position: relative; top: -60px; }
 .viralMainHeading { font-family: 'RobotoBold'; font-size: 36px; color: #000000; text-align: center; }
-.winnerMainContainer { /*margin-left: 115px; margin-right: 115px; margin-top: 50px;*/ margin: 6% 2%; }
+.winnerMainContainer { /*margin-left: 115px; margin-right: 115px; margin-top: 50px;*/ margin: 6% 2% 5%; }
 .winnerMainInnerContainer { margin: 0 auto; width: 88.5%; }
 .winnerContainer { padding-bottom: 30px; }
 .winnerInnerContainer { 
