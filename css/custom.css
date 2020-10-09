@@ -349,7 +349,13 @@ header {
 .alert-info { border-color: #9b14f2; color: #9b14f2; background-color: #E2EAFF; }
 
 @media only screen and (min-width: 1440px){
-    body { width: 1440px; margin: 0 auto; }
+    /*body { width: 1440px; margin: 0 auto; }*/
+    .headerLine1Holder { margin-top: 10.5%; }
+    .headerBg { padding-bottom: 20%; }
+    .whatIsLeftImage{ margin-right: 25%; }
+    .workTextContainer { padding-left: 25%; }
+    .workRightImage{ margin-top: 5%; margin-left: 20%; }
+    .footerContainer { padding-bottom: 5%; }
 }
 @media only screen and (min-width: 1400px){
     .winnerMainInnerContainer {
