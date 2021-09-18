@@ -219,10 +219,10 @@ header {
 .winnerBorderLeft { /*border-left: 15px solid #E9E9E9; padding-left: 0px;*/ }
 .winnerBorderRight { /*border-right: 15px solid #E9E9E9; padding-right: 0px;*/ }
 .winnerImgContainer { position: relative; }
-.winnerImgContainer img { max-width: 100%; border-radius: 15px; }
-.winnerImgContainer p { font-family: 'RobotoMedium'; font-size: 32px; color: #FFFFFF; position: absolute; margin-left: 30px; display: none; }
-.winnerLine1 { bottom: 50px; }
-.winnerLine2 { bottom: 10px; }
+.winnerImgContainer img { display: block; max-width: 100%; border-radius: 15px; }
+.winnerImgContainer p { font-family: 'RobotoMedium'; font-size: 32px; line-height: 1em; }
+.winnerLine1 {  }
+.winnerLine2 {  }
 .winnerDescText { width: 100%; text-align: center; margin-top: 10px; }
 .winnerDescText p { padding: 0 25px; font-family: "PoppinsBold"; font-size: 13px; }
 .winnerDescText p i { text-decoration: underline; }
@@ -502,7 +502,7 @@ header {
     .sponsorMainContainer { margin-left: 5%; margin-right: 5%; }
     .contactMainContainer { margin-left: 5%; margin-right: 5%; }
     .contactRightImage { float: left; }
-    .footerMainContainer { margin-top: 6%; margin-bottom: 3%; margin-left: 10%; margin-right: 6%; }
+    .footerMainContainer { margin-top: 3%; margin-bottom: 3%; margin-left: 10%; margin-right: 6%; }
     .footerMainContainer ul { margin-top: 0px; }
     .paddingTopLandscape { padding-top: 0px; }
     .faqIndividualContainer { min-height: 445px; }
